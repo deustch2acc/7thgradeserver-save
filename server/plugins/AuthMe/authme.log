@@ -339,3 +339,5 @@
 	at java.base/java.lang.Thread.run(Unknown Source)
 
 [04-15 16:26:52]: [FINE] wsg63910 logged in 0:0:0:0:0:0:0:1%0
+[04-15 16:31:16]: [FINE] wsg63910 logged in 0:0:0:0:0:0:0:1%0
+[04-15 16:33:57]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!

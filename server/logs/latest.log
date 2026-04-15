@@ -278,3 +278,47 @@
 [16:29:46] [Server thread/INFO]: wsg63910 lost connection: Timed out
 [16:29:46] [Server thread/INFO]: wsg63910 left the game
 [16:29:46] [Server thread/WARN]: handleDisconnection() called twice
+[16:31:09] [User Authenticator #2/INFO]: UUID of player wsg63910 is 98ce53bd-043f-3f09-9485-5556e0b8e17e
+[16:31:09] [Server thread/INFO]: wsg63910[/0:0:0:0:0:0:0:1%0:42248] logged in with entity id 153 at ([world]150.00049180044468, 66.0, 434.92492108959493)
+[16:31:16] [Craft Scheduler Thread - 15/INFO]: [AuthMe] wsg63910 logged in 0:0:0:0:0:0:0:1%0
+[16:33:33] [Server thread/INFO]: wsg63910 issued server command: /give wsg63910 command_block
+[16:33:45] [Server thread/INFO]: wsg63910 issued server command: /give @s minecraft:command_block
+[16:33:49] [Server thread/INFO]: wsg63910 lost connection: Disconnected
+[16:33:49] [Server thread/INFO]: wsg63910 left the game
+[16:33:57] [Server thread/INFO]: Stopping the server
+[16:33:57] [Server thread/INFO]: Stopping server
+[16:33:57] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[16:33:57] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[16:33:57] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[16:33:57] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[16:33:57] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[16:33:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:33:57] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[16:33:57] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[16:33:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:33:57] [Server thread/INFO]: [CustomNukes] Disabling CustomNukes v0.2.7
+[16:33:57] [Server thread/ERROR]: Error occurred while disabling CustomNukes v0.2.7 (Is it up to date?)
+java.lang.UnsupportedOperationException: null
+	at com.google.common.collect.UnmodifiableIterator.remove(UnmodifiableIterator.java:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.RecipeIterator.remove(RecipeIterator.java:51) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.gmail.uprial.customnukes.CustomNukes.unloadExplosives(CustomNukes.java:158) ~[?:?]
+	at com.gmail.uprial.customnukes.CustomNukes.onDisable(CustomNukes.java:64) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:350) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:424) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:417) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.disablePlugins(CraftServer.java:363) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:486) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:702) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[16:33:57] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[16:33:57] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
+[16:33:57] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:33:57] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:33:57] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:33:57] [Server thread/INFO]: Saving players
+[16:33:57] [Server thread/INFO]: Saving worlds
+[16:33:57] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[16:33:57] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[16:33:57] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
