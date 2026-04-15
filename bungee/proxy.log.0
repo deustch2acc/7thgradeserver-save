@@ -553,3 +553,10 @@
 16:29:46 [INFO] [wsg63910] disconnected with: §fTimed out
 16:29:46 [INFO] [wsg63910] -> UpstreamBridge has disconnected
 16:29:46 [INFO] [wsg63910] <-> DownstreamBridge <-> [lobby] has disconnected
+16:31:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59430]: Connected via websocket
+16:31:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59430]: Origin header is http://localhost:8081
+16:31:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59430]: Logged in as 'wsg63910'
+16:31:09 [INFO] [wsg63910] -> UpstreamBridge has connected
+16:31:09 [INFO] [wsg63910] <-> ServerConnector [lobby] has connected
+16:33:49 [INFO] [wsg63910] -> UpstreamBridge has disconnected
+16:33:49 [INFO] [wsg63910] <-> DownstreamBridge <-> [lobby] has disconnected
