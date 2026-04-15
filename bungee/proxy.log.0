@@ -412,3 +412,9 @@
 01:41:35 [INFO] [wsg63910] <-> ServerConnector [lobby] has connected
 01:47:52 [INFO] [wsg63910] -> UpstreamBridge has disconnected
 01:47:52 [INFO] [wsg63910] <-> DownstreamBridge <-> [lobby] has disconnected
+01:53:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45830]: Connected via websocket
+01:53:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45830]: Origin header is http://localhost:8081
+01:53:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45830]: Logged in as 'wsg63910'
+01:53:24 [INFO] [wsg63910] -> UpstreamBridge has connected
+01:53:24 [INFO] [wsg63910] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+01:53:24 [INFO] [wsg63910] -> UpstreamBridge has disconnected
