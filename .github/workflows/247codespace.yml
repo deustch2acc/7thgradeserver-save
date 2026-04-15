@@ -1,26 +1,26 @@
 name: Keep Codespace Alive
+
 on:
   schedule:
-    # Runs every 30 minutes. 
-    # Use non-zero minutes like 7 or 37 to avoid high-load delays at the top of the hour.
+    # Runs every 30 minutes.
     - cron: '*/30 * * * *'
   workflow_dispatch: # Allows you to trigger the workflow manually for testing
 
 jobs:
   start-codespace:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Start Codespace via GitHub CLI
         env:
           GH_TOKEN: ${{ secrets.pat_key }}
           CODESPACE_NAME: "7thgradeserver" # Replace with your actual Codespace name
         run: |
           gh api \
-            --method POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            /user/codespaces/$CODESPACE_NAME/start
-       - name: health check port
-         run: |
-           curl -f http://localhost:8080 || echo "Port not responding"
-        
+          --method POST \
+          -H "Accept: application/vnd.github+json" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          /user/codespaces/$CODESPACE_NAME/start
+
+      - name: health check port
+        run: |
+          curl -f http://localhost:8080 || echo "Port not responding"
