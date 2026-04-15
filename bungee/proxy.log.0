@@ -688,3 +688,33 @@
 19:41:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43698]: Logged in as 'wsg63910'
 19:41:07 [INFO] [wsg63910] -> UpstreamBridge has connected
 19:41:07 [INFO] [wsg63910] <-> ServerConnector [lobby] has connected
+19:58:20 [INFO] [topleft21] -> UpstreamBridge has disconnected
+19:58:20 [INFO] [topleft21] <-> DownstreamBridge <-> [lobby] has disconnected
+19:59:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34536]: Connected via websocket
+19:59:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34536]: Origin header is http://localhost:8081
+19:59:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34536]: Logged in as 'topleft21'
+19:59:01 [INFO] [topleft21] -> UpstreamBridge has connected
+19:59:01 [INFO] [topleft21] <-> ServerConnector [lobby] has connected
+19:59:31 [INFO] [topleft21] disconnected with: §f§4Login timeout exceeded, you have been kicked from the server, please try again!
+19:59:31 [INFO] [topleft21] -> UpstreamBridge has disconnected
+19:59:31 [INFO] [topleft21] <-> DownstreamBridge <-> [lobby] has disconnected
+19:59:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37088]: Connected via websocket
+19:59:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37088]: Origin header is http://localhost:8081
+19:59:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37088]: Logged in as 'topleft21'
+19:59:36 [INFO] [topleft21] -> UpstreamBridge has connected
+19:59:36 [INFO] [topleft21] <-> ServerConnector [lobby] has connected
+20:00:57 [INFO] [topleft21] disconnected with: §f§cProxy lost connection to server.
+20:00:57 [INFO] [topleft21] <-> DownstreamBridge <-> [lobby] has disconnected
+20:00:57 [INFO] [topleft21] -> UpstreamBridge has disconnected
+20:01:02 [INFO] [wsg63910] -> UpstreamBridge has disconnected
+20:01:02 [INFO] [wsg63910] <-> DownstreamBridge <-> [lobby] has disconnected
+20:01:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45608]: Connected via websocket
+20:01:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45608]: Origin header is http://localhost:8081
+20:01:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45608]: Logged in as 'wsg63910'
+20:01:25 [INFO] [wsg63910] -> UpstreamBridge has connected
+20:01:25 [INFO] [wsg63910] <-> ServerConnector [lobby] has connected
+20:01:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45628]: Connected via websocket
+20:01:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45628]: Origin header is http://localhost:8081
+20:01:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45628]: Logged in as 'topleft21'
+20:01:33 [INFO] [topleft21] -> UpstreamBridge has connected
+20:01:33 [INFO] [topleft21] <-> ServerConnector [lobby] has connected

@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1776281554296
+  lastteleport: 1776283198324
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776281823557
-  login: 1776282067333
+  logout: 1776283262227
+  login: 1776283285277
 money: '0'
 last-account-name: wsg63910
 logoutlocation:
   world: 80f54fa7-017d-4872-a9f2-3e9a774c1011
   world-name: world
-  x: 1.841437086188546E7
-  y: 86.0
-  z: 3594369.127742133
-  yaw: 223.32896423339844
-  pitch: 37.35000991821289
+  x: 1.84143872518526E7
+  y: 77.0
+  z: 3594338.3396770013
+  yaw: 246.87904357910156
+  pitch: 14.550007820129395
 homes:
   spawn:
     world: 80f54fa7-017d-4872-a9f2-3e9a774c1011
@@ -37,11 +37,19 @@ homes:
     z: 435.9813331718338
     yaw: -10.399031639099121
     pitch: 9.749992370605469
+  base:
+    world: 80f54fa7-017d-4872-a9f2-3e9a774c1011
+    world-name: world
+    x: 1.8414386447122768E7
+    y: 77.0
+    z: 3594338.679579341
+    yaw: 321.279052734375
+    pitch: 20.700008392333984
 lastlocation:
   world: 80f54fa7-017d-4872-a9f2-3e9a774c1011
   world-name: world
-  x: -4863598.7452941565
-  y: 63.0
-  z: -2.24015074414633E7
-  yaw: 157.79795837402344
-  pitch: 23.85000228881836
+  x: 1.841425975787918E7
+  y: 80.0
+  z: 3594504.162446018
+  yaw: 193.779052734375
+  pitch: 25.79999351501465
