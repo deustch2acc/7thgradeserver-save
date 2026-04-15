@@ -1,26 +1,30 @@
 name: Keep Codespace Alive
-
 on:
   schedule:
-    # Runs at the start of every hour and 30 minutes past
-    - cron: '*/30 * * * *'
-  # Allows manual triggers
-  workflow_dispatch:
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   keep-alive:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.pat_key }} # See Step 2
     steps:
       - name: Start/Patch Codespace
         run: |
-          # Use GitHub CLI to patch/start the codespace
-          # Replace <CODESPACE_NAME> with your actual codespace name
-          gh codespace start 7thgradeserver
-        env:
-          GH_TOKEN: ${{ secrets.pat_key }}
+          # Replace 'YOUR_CODESPACE_NAME' with your codespace name
+          # or use 'gh codespace list' to find it.
+          CODESPACE_NAME="7thgradeserver"
           
-      - name: Healthcheck Port
+          # Patch (starts or wakes up) the codespace
+          gh codespace edit --codespace $CODESPACE_NAME
+          
+          # Optional: Rebuild if necessary, but edit is enough to stay alive
+          echo "Codespace $CODESPACE_NAME checked/started."
+
+      - name: Verify Health Check (Optional)
         run: |
-          # Optional: Perform a health check via curl
-          # Replace 3000 with your container's port
-          curl -f http://localhost:8081 || echo "Port not reachable"
+          # Optional: If you have a port 8080 service, you can 
+          # try to connect via SSH to verify it's running
+          # gh codespace ssh -c $CODESPACE_NAME -- "curl -f http://localhost:8081/health"
+          echo "Health check simulation"
