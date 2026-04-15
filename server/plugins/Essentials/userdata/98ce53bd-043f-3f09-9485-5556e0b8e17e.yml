@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776260452290
+  logout: 1776260952694
   login: 1776260904925
 money: '0'
 last-account-name: wsg63910
 logoutlocation:
   world: 80f54fa7-017d-4872-a9f2-3e9a774c1011
   world-name: world
-  x: 478781.5038230214
-  y: 66.99884147008355
-  z: 1.2070139699248366E7
-  yaw: 180.881103515625
-  pitch: 51.600006103515625
+  x: 148.6951971806587
+  y: 66.0
+  z: 435.3141223045622
+  yaw: -1.84903085231781
+  pitch: 22.649993896484375
 homes:
   spawn:
     world: 80f54fa7-017d-4872-a9f2-3e9a774c1011

@@ -487,3 +487,5 @@
 13:48:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36034]: Logged in as 'wsg63910'
 13:48:24 [INFO] [wsg63910] -> UpstreamBridge has connected
 13:48:24 [INFO] [wsg63910] <-> ServerConnector [lobby] has connected
+13:49:12 [INFO] [wsg63910] -> UpstreamBridge has disconnected
+13:49:12 [INFO] [wsg63910] <-> DownstreamBridge <-> [lobby] has disconnected

@@ -284,3 +284,42 @@
 [13:48:24] [Server thread/INFO]: wsg63910[/0:0:0:0:0:0:0:1%0:57208] logged in with entity id 378 at ([world]478781.5038230214, 66.99884147008355, 1.2070139699248366E7)
 [13:48:31] [Craft Scheduler Thread - 16/INFO]: [AuthMe] wsg63910 logged in 0:0:0:0:0:0:0:1%0
 [13:48:35] [Server thread/INFO]: wsg63910 issued server command: /warp spawn
+[13:49:12] [Server thread/INFO]: wsg63910 lost connection: Disconnected
+[13:49:12] [Server thread/INFO]: wsg63910 left the game
+[13:49:24] [Server thread/INFO]: Stopping the server
+[13:49:24] [Server thread/INFO]: Stopping server
+[13:49:24] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[13:49:24] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[13:49:24] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[13:49:24] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[13:49:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[13:49:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:49:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[13:49:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[13:49:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:49:24] [Server thread/INFO]: [CustomNukes] Disabling CustomNukes v0.2.7
+[13:49:24] [Server thread/ERROR]: Error occurred while disabling CustomNukes v0.2.7 (Is it up to date?)
+java.lang.UnsupportedOperationException: null
+	at com.google.common.collect.UnmodifiableIterator.remove(UnmodifiableIterator.java:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.RecipeIterator.remove(RecipeIterator.java:51) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.gmail.uprial.customnukes.CustomNukes.unloadExplosives(CustomNukes.java:158) ~[?:?]
+	at com.gmail.uprial.customnukes.CustomNukes.onDisable(CustomNukes.java:64) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:350) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:424) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:417) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.disablePlugins(CraftServer.java:363) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:486) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:702) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[13:49:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[13:49:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
+[13:49:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:49:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:49:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:49:24] [Server thread/INFO]: Saving players
+[13:49:24] [Server thread/INFO]: Saving worlds
+[13:49:24] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[13:49:24] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[13:49:24] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
