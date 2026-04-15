@@ -43,9 +43,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "ice_flats": "2026-04-15 20:05:48 +0000",
       "forest": "2026-04-14 18:59:43 +0000",
       "beaches": "2026-04-15 01:44:40 +0000",
       "extreme_hills_with_trees": "2026-04-15 19:35:11 +0000",
+      "savanna": "2026-04-15 20:05:58 +0000",
       "taiga": "2026-04-15 13:36:38 +0000",
       "ocean": "2026-04-15 01:44:23 +0000",
       "extreme_hills": "2026-04-15 19:33:09 +0000",
@@ -165,6 +167,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2026-04-15 19:34:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2026-04-15 20:02:20 +0000"
     },
     "done": true
   },
@@ -315,6 +323,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2026-04-15 19:42:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2026-04-15 20:02:20 +0000"
     },
     "done": true
   },

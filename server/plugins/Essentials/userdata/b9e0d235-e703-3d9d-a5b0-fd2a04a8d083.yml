@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776283257774
+  logout: 1776283723329
   login: 1776283293390
 money: '0'
 lastlocation:
@@ -31,11 +31,11 @@ last-account-name: topleft21
 logoutlocation:
   world: 80f54fa7-017d-4872-a9f2-3e9a774c1011
   world-name: world
-  x: 1.841438864621892E7
-  y: 77.0
-  z: 3594339.0324462648
-  yaw: 222.57899475097656
-  pitch: 8.999992370605469
+  x: 1.8414387699999988E7
+  y: 77.875
+  z: 3594337.300000012
+  yaw: 181.6290283203125
+  pitch: 38.999996185302734
 homes:
   home:
     world: 80f54fa7-017d-4872-a9f2-3e9a774c1011

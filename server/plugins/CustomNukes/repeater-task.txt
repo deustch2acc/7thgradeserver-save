@@ -1,1 +1,2 @@
-world:5689.50:66.50:5712.50:Nuclear Bomb/repeater1:8=41616
+world:5689.50:66.50:5712.50:Nuclear Bomb/repeater1:8=41316
+world:-22643952.50:68.50:5955721.50:Nuclear Bomb/repeater1:2917=43187

@@ -718,3 +718,7 @@
 20:01:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45628]: Logged in as 'topleft21'
 20:01:33 [INFO] [topleft21] -> UpstreamBridge has connected
 20:01:33 [INFO] [topleft21] <-> ServerConnector [lobby] has connected
+20:08:38 [INFO] [wsg63910] -> UpstreamBridge has disconnected
+20:08:38 [INFO] [wsg63910] <-> DownstreamBridge <-> [lobby] has disconnected
+20:08:43 [INFO] [topleft21] -> UpstreamBridge has disconnected
+20:08:43 [INFO] [topleft21] <-> DownstreamBridge <-> [lobby] has disconnected
