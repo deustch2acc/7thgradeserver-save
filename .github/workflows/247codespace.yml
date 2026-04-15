@@ -15,7 +15,7 @@ jobs:
         run: |
           # Use GitHub CLI to patch/start the codespace
           # Replace <CODESPACE_NAME> with your actual codespace name
-          gh codespace start --codespace 7thgradeserver
+          gh codespace start 7thgradeserver
         env:
           GH_TOKEN: ${{ secrets.pat_key }}
           
