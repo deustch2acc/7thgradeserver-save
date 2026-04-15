@@ -9,7 +9,7 @@ on:
 jobs:
   start-codespace:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Start Codespace via GitHub CLI
         env:
           GH_TOKEN: ${{ secrets.pat_key }}
