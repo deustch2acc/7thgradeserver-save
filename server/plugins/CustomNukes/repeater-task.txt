@@ -1,0 +1,1 @@
+world:5689.50:66.50:5712.50:Nuclear Bomb/repeater1:56=43116
